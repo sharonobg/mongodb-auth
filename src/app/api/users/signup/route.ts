@@ -37,7 +37,7 @@ export async function POST(request:NextRequest){
             savedUser
         })
 
-        //send data to page
+        
 
     } catch (error:any) {
         return NextResponse.json({error:error.message},
